@@ -1,0 +1,5 @@
+name: LeavesGapple
+description: when leaves break a gapple drops
+version: 1.0.0
+main: CrazierDevotee0\LeavesGapple
+api: 2.0.0
