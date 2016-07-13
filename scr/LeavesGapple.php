@@ -14,9 +14,11 @@ class LeavesGapple extends PluginBase {
 public function onEnable(){
 $this->getServer()->getLogger()->info("LeavesGapple is enabled!");
 
-public function LeavesBreak(BlockBreakEvent $event){
+public function onBreak(Leaves $l){
 
-    if($this->plugin->LeavesBreak($event->getPlayer())) {
+    if($this->plugin->Gapple($l->())) {
 return true;
     }
 }
+
+public function Gapple()
