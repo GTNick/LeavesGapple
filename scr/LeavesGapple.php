@@ -13,6 +13,8 @@ class LeavesGapple extends PluginBase {
 
 public function onEnable(){
 $this->getServer()->getLogger()->info("LeavesGapple is enabled!");
+    }
+}
 
 public function onBreak(Leaves $l){
 
